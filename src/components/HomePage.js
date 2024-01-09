@@ -660,7 +660,6 @@ function HomePage() {
               </div>
 
             </div>
-
           </div>
 
         </Fade>

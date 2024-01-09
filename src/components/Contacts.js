@@ -26,18 +26,18 @@ const Contacts = () => {
                       <br />
                       <input
                         className="handbook_input"
-                        placeholder="mail@simmmple.com"
+                        placeholder="Enter Your Name"
                       />
                     </div>
                     <div className="py-2">
                       <label className="name_handbook">Phone Number*</label>
                       <br />
-                      <input className="handbook_input" placeholder="" />
+                      <input className="handbook_input" placeholder="Enter Your Mobile" />
                     </div>
                     <div className="py-2">
                       <label className="name_handbook">Mail ID*</label>
                       <br />
-                      <input className="handbook_input" placeholder="" />
+                      <input className="handbook_input" placeholder="Enter Your Email" />
                     </div>
                     <div className="py-2">
                       <label className="name_handbook">Interested in</label>

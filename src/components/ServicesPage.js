@@ -45,7 +45,7 @@ const ServicesPage = () => {
                 )
               })}
             </div>
-            <div className=''><button className='home_get_style py-2 px-4'>Get Free Consultation <BsArrowRight /></button></div>
+            <div className='mt-5'><button className='home_get_style py-3 px-4'>Get Free Consultation</button></div>
           </div>
           <div className='py-3'><img src={Homeimage5} alt='Homeimage5' className='serviceimage5_style' /> </div>
         </div>
