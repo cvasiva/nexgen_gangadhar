@@ -4,6 +4,7 @@ import { BsChevronDown } from "react-icons/bs";
 import { BsChevronUp } from "react-icons/bs";
 import { Queries_Decoded } from "../HomePage/HomePagejson";
 import laptogaqimage from "../Images/AboutImages/laptogaqimage.png";
+import digital from "../Images/AboutImages/digital.png";
 import profile_homelogo12 from "../Images/HomeImages/profile_homelogo12.png";
 import { IoIosStar } from "react-icons/io";
 import { IoIosStarHalf } from "react-icons/io";
@@ -28,7 +29,7 @@ const FaqHandbook = () => {
           Queries Decoded:{" "}
           <span className="Queries_handbookfont">Your FAQ Handbook</span>
         </div>
-        <div className="faqhand_bg_grid">
+        <div className="faqhand_bg_grid pb-3">
           {Queries_Decoded.map((item, index) => {
             console.log("toggle[item.id]", toggle[item.id]);
             return (
@@ -70,7 +71,9 @@ const FaqHandbook = () => {
             );
           })}
         </div>
-        <div className="py-5">
+      </div>
+      <div className="py-5 " style={{ background: "#FFF" }}>
+        <div className="tdi9mq0 tdi9mq4">
           <div className="your_faq">
             <div className="pading_callfaq">
               <div className="Digital_faq">
@@ -117,6 +120,9 @@ const FaqHandbook = () => {
                   </div>
                 </div>
               </div>
+              <div className="ensuring_flex_home1 text-center pt-3">
+                <img src={digital} alt="digital" style={{width:"80%"}}/>
+              </div>
             </div>
             <div className="callback_flexfaq">
               <div className="top_call_back w-100 txet-center">
@@ -138,7 +144,6 @@ const FaqHandbook = () => {
           </div>
         </div>
       </div>
-      
     </>
   );
 };

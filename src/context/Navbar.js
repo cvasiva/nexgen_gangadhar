@@ -33,7 +33,7 @@ const NavbarPage = (args) => {
                 <img
                   src={Nexgen_icon}
                   alt="Nexgen_icon"
-                  style={{ width: "50%" }}
+                  style={{ width: "40%" }}
                 />
               </NavbarBrand>
             </Link>
@@ -93,7 +93,7 @@ const NavbarPage = (args) => {
                       target="_blank"
                       className="Contact_button_nav py-1 px-3"
                     >
-                      <FaWhatsapp className="fs-4" />{" "}
+                      <FaWhatsapp className="fs-5" />{" "}
                       <span className="py-1">Contact Us</span>
                     </a>
                   </div>
@@ -109,7 +109,7 @@ const NavbarPage = (args) => {
                       target="_blank"
                       className="Contact_button_nav py-1 px-3"
                     >
-                      <FaWhatsapp className="fs-4" />{" "}
+                      <FaWhatsapp className="fs-5" />{" "}
                       <span className="py-1">Contact Us</span>
                     </a>
                   </div>
@@ -122,7 +122,7 @@ const NavbarPage = (args) => {
                       target="_blank"
                       className="Contact_button_nav py-1 px-3"
                     >
-                      <FaWhatsapp className="fs-4" />{" "}
+                      <FaWhatsapp className="fs-5" />{" "}
                       <span className="py-1">Contact Us</span>
                     </a>
                   </div>

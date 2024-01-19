@@ -4,8 +4,7 @@ import Homeimage2 from "../Images/HomeImages/Homeimage2.png";
 import { BsArrowRight } from "react-icons/bs";
 import { IoIosStar } from "react-icons/io";
 import { IoIosStarHalf } from "react-icons/io";
-import Homeimage3 from "../Images/HomeImages/Homeimage3.png";
-import Homeimage4 from "../Images/HomeImages/Homeimage4.png";
+import malelogo from "../Images/AboutImages/malelogo.png";
 import nexgen_log_seection from "../Images/HomeImages/nexgen_log_seection.png";
 import companes_logs_home123 from "../Images/AboutImages/companes_logs_home123.png";
 import companelogomobile from "../Images/AboutImages/companelogomobile.png";
@@ -40,6 +39,7 @@ import whateabutbg from "../Images/AboutImages/whateabutbg.png";
 import bgbackimghome from "../Images/AboutImages/bgbackimghome.png";
 import { Link } from "react-router-dom";
 import Footer from "./Footer";
+import { PiStarFourFill } from "react-icons/pi";
 function HomePage() {
   const [, setItems] = useState(10);
   useEffect(() => {
@@ -124,6 +124,8 @@ function HomePage() {
       <div className="" style={{ overflow: "hidden", overflowX: "hidden" }}>
         <Fade bottom>
           <div className="home_dev_card ">
+            <div className="slideimg1"></div>
+            <div className="slideimgRight1"></div>
             <div className="dev_flex_home tdi9mq0 tdi9mq4">
               <video
                 src={video}
@@ -141,10 +143,11 @@ function HomePage() {
                 <div className="align-item-center">
                   <div>
                     <div className="home_dev_font">
-                      Stunning website
-                      <br /> designed to boost
-                      <br /> your{" "}
-                      <span className="home_dev1_Revenue">Revenue</span>
+                      We build Stunning
+                      <br />
+                      Websites to boost
+                      <br />
+                      your <span className="home_dev1_Revenue">Revenue</span>
                     </div>
                   </div>
                   <div className=" dev_flex1_home">
@@ -185,17 +188,18 @@ function HomePage() {
                     <br />
                     conversion rate than our old one”
                   </div>
-                  <div className="d-flex gap-0 my-2">
+                  <div className="d-flex gap-2 my-2">
                     <div className="text-center">
                       <img
-                        src={Homeimage3}
+                        src={malelogo}
                         alt="Homeimage3"
-                        style={{ position: "relative", width: "50%" }}
+                        width={50}
+                        style={{ position: "relative" }}
                       />{" "}
                     </div>
                     <div className="">
-                      <div className="home_font1_aswin">Ashwin</div>
-                      <div className="home_font2_aswin">Zell Founder </div>
+                      <div className="home_font1_aswin">RamaKrishna K</div>
+                      <div className="home_font2_aswin">Zell Founder</div>
                     </div>
                   </div>
                 </div>
@@ -235,17 +239,18 @@ function HomePage() {
                       <br />
                       conversion rate than our old one”
                     </div>
-                    <div className="flexgapas my-2">
+                    <div className="d-flex gap-4 my-2 justify-content-center">
                       <div className="text-center">
                         <img
-                          src={Homeimage3}
+                          src={malelogo}
                           alt="Homeimage3"
-                          className="Homeimagestyle"
+                          width={50}
+                          style={{ position: "relative" }}
                         />{" "}
                       </div>
-                      <div className="">
-                        <div className="home_font1_aswin">Ashwin</div>
-                        <div className="home_font2_aswin">Zell Founder </div>
+                      <div className="py-1">
+                        <div className="home_font1_aswin">RamaKrishna K</div>
+                        <div className="home_font2_aswin">Zell Founder</div>
                       </div>
                     </div>
                   </div>
@@ -253,80 +258,56 @@ function HomePage() {
               </div>
             </div>
           </div>
-          <div className="home_dev5_card py-1">
+          <div className="home_dev5_card">
             <ScrollCarousel autoplay autoplaySpeed={80} speed={5}>
-              <div className="d-flex w-100">
+              <div className="d-flex w-100 gap-3 py-1">
                 <div>
                   {" "}
-                  <img
-                    src={Homeimage4}
-                    alt="Homeimage4"
-                    className="Homeimage4_width"
-                  />
+                  <PiStarFourFill />
                 </div>
-                <div className="home_webfont w-100 text-nowrap py-2">
+                <div className="home_webfont w-100 text-nowrap">
                   Web Development & Design
                 </div>
               </div>
-              <div className="d-flex w-100">
+              <div className="d-flex w-100 gap-3 py-1">
                 <div>
-                  <img
-                    src={Homeimage4}
-                    alt="Homeimage4"
-                    className="Homeimage4_width"
-                  />
+                  <PiStarFourFill />
                 </div>
-                <div className="home_webfont w-100 text-nowrap py-2">
+                <div className="home_webfont w-100 text-nowrap">
                   Mobile applications
                 </div>
               </div>
-              <div className="d-flex w-100">
+              <div className="d-flex w-100 gap-3 py-1">
                 <div>
                   {" "}
-                  <img
-                    src={Homeimage4}
-                    alt="Homeimage4"
-                    className="Homeimage4_width"
-                  />
+                  <PiStarFourFill />
                 </div>
-                <div className="home_webfont w-100 text-nowrap py-2">
+                <div className="home_webfont w-100 text-nowrap">
                   UX / UI Design
                 </div>
               </div>
-              <div className="d-flex w-100">
+              <div className="d-flex w-100 gap-3 py-1">
                 <div>
                   {" "}
-                  <img
-                    src={Homeimage4}
-                    alt="Homeimage4"
-                    className="Homeimage4_width"
-                  />
+                  <PiStarFourFill />
                 </div>
-                <div className="home_webfont w-100 text-nowrap py-2">
+                <div className="home_webfont w-100 text-nowrap">
                   E - Commerce website
                 </div>
               </div>
-              <div className="d-flex w-100">
+              <div className="d-flex w-100 gap-3 py-1">
                 <div>
-                  <img
-                    src={Homeimage4}
-                    alt="Homeimage4"
-                    className="Homeimage4_width"
-                  />
+                  <PiStarFourFill />
                 </div>
-                <div className="home_webfont w-100 text-nowrap py-2">
+                <div className="home_webfont w-100 text-nowrap">
                   Branding & Design
                 </div>
               </div>
-              <div className="d-flex w-100">
+              <div className="d-flex w-100 gap-3 py-1">
                 <div>
-                  <img
-                    src={Homeimage4}
-                    alt="Homeimage4"
-                    className="Homeimage4_width"
-                  />
+                  <PiStarFourFill />
                 </div>
-                <div className="home_webfont w-100 text-nowrap py-2">
+                <div className="home_webfont w-100 text-nowrap">
                   Dashboard UI
                 </div>
               </div>
@@ -334,14 +315,14 @@ function HomePage() {
           </div>
           <div className="home_card3_bg">
             <div className="home_bg_images">
-              <div className="tdi9mq0 tdi9mq4d py-4">
+              <div className="tdi9mq0 tdi9mq4d pypadingvi">
                 <div className="d-flex justify-content-center">
                   <div className="Covering_hme_font width_top py-3">
                     Top{" "}
                     <span className="Design_home_font">
                       Design and Development
                     </span>{" "}
-                    Company Covering India and its Vicinity
+                    Company Covering India and it's Vicinity
                   </div>
                 </div>
                 <div className="d-flex justify-content-center">
@@ -555,7 +536,6 @@ function HomePage() {
                       mobile-friendly sites; our responsive design ensures
                       consistency, user-friendliness, and engagement.
                     </div>
-                    <div className="nowhomeenq">Enquire Now</div>
                   </div>
                 </Col>
                 <Col md={3} sm={6}>
@@ -577,7 +557,6 @@ function HomePage() {
                       your brand, prioritizing user experience, ensuring secure
                       payments, and data protection.
                     </div>
-                    <div className="nowhomeenq">Enquire Now</div>
                   </div>
                 </Col>
                 <Col md={3} sm={6}>
@@ -597,7 +576,6 @@ function HomePage() {
                       functionality. Designs ensure beauty, usability, and
                       cross-device performance.
                     </div>
-                    <div className="nowhomeenq">Enquire Now</div>
                   </div>
                 </Col>
                 <Col md={3} sm={6}>
@@ -617,12 +595,11 @@ function HomePage() {
                       Ensure consistent brand image on social channels,
                       reinforcing trust.
                     </div>
-                    <div className="nowhomeenq">Enquire Now</div>
                   </div>
                 </Col>
               </Row>
             </div>
-            <div className="py-5">
+            <div className="firmspading">
               <div className="home_mostly_font mt-5">
                 Experienced with top overseas firms
               </div>

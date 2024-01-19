@@ -19,8 +19,9 @@ const App = () => {
       <ErrorBoundary>
         <Router>
           <ScrollToTop />
-          <Routes basename="/">
-            <Route index element={<HomePage />} />
+          <Routes basename="/nexgen_gangadhar">
+            <Route element={<HomePage />} />
+            <Route exact path="/nexgen_gangadhar" element={<HomePage />} />
             <Route exact path="/" element={<HomePage />} />
             <Route  path="*" element={<ErrorBoundary />} />
             <Route  path="/services" element={<ServicesPage />} />

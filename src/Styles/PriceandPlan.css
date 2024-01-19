@@ -59,7 +59,7 @@
 }
 
 .displayvastclocr {
-    display: none;
+    display: block;
 }
 
 
@@ -224,7 +224,7 @@
 .vestibulum_font_price {
     padding: 1rem;
     color: var(--Black, #000);
-    font-family: 'Roboto';
+    font-family: 'inter';
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -526,7 +526,7 @@
     .vestibulum_font_price {
         padding: 1rem;
         color: var(--Black, #000);
-        font-family: 'Roboto';
+        font-family: 'inter';
         font-size: 18px;
         font-style: normal;
         font-weight: 400;
@@ -572,7 +572,7 @@
 .vestibulum_font_price_sroling {
     padding: 1rem;
     color: var(--Black, #000);
-    font-family: 'Roboto';
+    font-family: 'inter';
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -805,7 +805,7 @@
     .vestibulum_font_price {
         padding: 1rem;
         color: var(--Black, #000);
-        font-family: 'Roboto';
+        font-family: 'inter';
         font-size: 18px;
         font-style: normal;
         font-weight: 400;

@@ -18,7 +18,7 @@
     color: #FFF;
     text-align: center;
     font-family: 'Inter';
-    font-size: 18px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     border-bottom: 2px solid #FFD851;
@@ -127,7 +127,7 @@
     color: #FFF;
     text-align: center;
     font-family: 'Inter';
-    font-size: 18px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
 }
@@ -212,15 +212,15 @@
 }
 
 .Contact_button_nav {
+    border-radius: 4px;
     background: #3DBF42;
     border: none;
     color: #FFF;
     font-family: Inter;
-    font-size: 15.812px;
+    font-size: 14.812px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     text-decoration: none;
     display: flex;
     line-height: 19.966px;
-    /* 126.273% */
 }

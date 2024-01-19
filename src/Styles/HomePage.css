@@ -109,7 +109,7 @@
   justify-content: center;
   flex-direction: row;
   align-items: center;
-  gap: 3rem;
+  gap: 1rem;
   padding-top: 6%;
 }
 
@@ -153,6 +153,23 @@
 .home_botton {
   border-radius: 8px;
   background: linear-gradient(180deg, #FFF264 0%, #FFB334 100%);
+  border: none;
+  color: #0F1825;
+  font-family: Inter;
+  font-size: 15.812px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 19.966px;
+  /* 126.273% */
+  position: relative;
+}
+
+.home_botton:hover {
+  transition: 0.5s ease;
+  transform: translate(0, -5px);
+  border-radius: 8px;
+  background: linear-gradient(180deg, #FFF264 0%, #FFB334 100%);
+  box-shadow: 0px 18px 88px -4px rgba(24, 39, 75, 0.14), 0px 8px 28px -6px rgba(24, 39, 75, 0.12);
   border: none;
   color: #0F1825;
   font-family: Inter;
@@ -225,23 +242,21 @@
 }
 
 .home_dev5_card {
-  background: #2F2F2F;
+  background: linear-gradient(180deg, #FFF264 0%, #FFB334 100%);
   position: relative;
 }
 
 .home_webfont {
-  color: #FFF;
+  color: #000;
   text-align: center;
-  font-family: 'Inter';
-  font-size: 23.052px;
+  /* font-family: 'Inter'; */
+  font-size: 18.052px;
   font-style: normal;
-  font-weight: 300;
-  line-height: 30.994px;
-  /* 134.455% */
+  font-weight: 500;
 }
 
 .Homeimage4_width {
-  width: 3vw;
+  width: 1.3vw;
   position: relative;
 }
 
@@ -365,6 +380,22 @@
 .home_get_style_Consultation {
   border-radius: 8px;
   background: linear-gradient(180deg, #FFF264 0%, #FFB334 100%);
+  color: #000;
+  border: none;
+  font-family: Inter;
+  font-size: 14.812px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19.966px;
+  /* 126.273% */
+}
+
+.home_get_style_Consultation:hover {
+  transition: 0.5s ease;
+  transform: translate(0, -5px);
+  border-radius: 8px;
+  background: linear-gradient(180deg, #FFF264 0%, #FFB334 100%);
+  box-shadow: 0px 18px 88px -4px rgba(24, 39, 75, 0.14), 0px 8px 28px -6px rgba(24, 39, 75, 0.12);
   color: #000;
   border: none;
   font-family: Inter;
@@ -783,7 +814,7 @@
   box-shadow: 0px 4px 4px -2px rgba(24, 39, 75, 0.08), 0px 2px 4px -2px rgba(24, 39, 75, 0.12);
   padding: 1rem;
   width: 100%;
-  height: 290px;
+  height: 270px;
   cursor: pointer;
 }
 
@@ -835,7 +866,7 @@
   display: none;
 }
 
-.slideimg {
+/* .slideimg {
   background-image: url("../Images/AboutImages/splashleft.png");
   background-blend-mode: overlay, normal;
   background-repeat: no-repeat;
@@ -855,6 +886,34 @@
   right: 0%;
   width: 20vh;
   height: 45vh;
+  position: absolute;
+} */
+
+.slideimg1 {
+  display: block;
+  background-image: url("../Images/AboutImages/splashleft.png");
+  background-color: overlay, normal;
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: -4%;
+  width: 24vh;
+  height: 23vh;
+  position: absolute;
+  z-index: 1000;
+  bottom: 0%;
+
+}
+
+.slideimgRight1 {
+  display: block;
+  background-image: url("../Images/AboutImages/splashright.png");
+  background-blend-mode: overlay, normal;
+  background-repeat: no-repeat;
+  background-size: cover;
+  right: 0%;
+  width: 20vh;
+  height: 45vh;
+  z-index: 1000;
   position: absolute;
 }
 
@@ -901,12 +960,55 @@
 }
 
 .homepagelogo2 {
-  width: 100%;
+  width: 110%;
   position: relative;
   display: block;
 }
 
+.firmspading {
+  padding: 3rem 0rem;
+}
+
+.pypadingvi {
+  padding: 1.5rem 0rem;
+}
+
 @media (max-width: 40em) {
+  .pypadingvi {
+    padding: 0rem 0rem;
+  }
+
+  .firmspading {
+    padding: 0rem 0rem;
+  }
+
+  .slideimg1 {
+    display: none;
+    background-image: url("../Images/AboutImages/splashleft.png");
+    background-blend-mode: overlay, normal;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 0%;
+    width: 20vh;
+    height: 45vh;
+    position: absolute;
+    z-index: 1000;
+    bottom: 2%;
+  }
+
+  .slideimgRight1 {
+    display: none;
+    background-image: url("../Images/AboutImages/splashright.png");
+    background-blend-mode: overlay, normal;
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: 0%;
+    width: 20vh;
+    height: 45vh;
+    z-index: 1000;
+    position: absolute;
+  }
+
   .tdi9mq0 {
     margin-left: 0;
     margin-right: 0;
@@ -915,6 +1017,7 @@
     padding-right: var(--_1iiu2e0d);
     /* margin-top: -5rem; */
   }
+
   .homepagelogo2 {
     display: none;
   }
@@ -948,7 +1051,7 @@
   }
 
   .ensuring_flex_home {
-    display: flex;
+    display: none;
     gap: 1rem;
     justify-content: start;
   }
@@ -1029,16 +1132,16 @@
 
   .home_botton {
     /* display: none; */
-    border-radius: 2px;
+    border-radius: 6px;
     background: linear-gradient(180deg, #FFF264 0%, #FFB334 100%);
-    border: none;
-    color: #0F1825;
-    font-family: 'Inter';
-    font-size: 10.5px;
+    color: #050427;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15.225px;
     font-style: normal;
-    font-weight: 600;
-    line-height: 20.835px;
-    /* 126.273% */
+    font-weight: 700;
+    border: none;
+    line-height: 100%;
   }
 
   .margin_our {
@@ -1147,6 +1250,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0rem 1rem;
   }
 
   .FrameHome9_style {
@@ -1159,6 +1263,7 @@
   } */
 
   .home_yourfont1 {
+    padding-top: 3%;
     color: #FFF;
     font-family: Inter;
     font-size: 24.851px;
@@ -1185,10 +1290,10 @@
   .home_arefont2 {
     color: #FDF9FF;
     font-family: Inter;
-    font-size: 15px;
+    font-size: 18px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 20px;
+    font-weight: 300;
+    line-height: 24px;
   }
 
   .BsChevronDown_style {
@@ -1371,9 +1476,9 @@
     background: #FFF;
     box-shadow: 0px 18px 88px -4px rgba(24, 39, 75, 0.14), 0px 8px 28px -6px rgba(24, 39, 75, 0.12);
     padding: 1rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
     width: 100%;
-    height: 290px;
+    height: 270px;
   }
 
   .home_bg_images {
@@ -1394,7 +1499,7 @@
     font-style: normal;
     font-weight: 500;
     border: none;
-    width: 50%;
+    width: 35%;
   }
 
   .Proposal_home_button1 {
@@ -1406,7 +1511,7 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
-    width: 50%;
+    width: 40%;
   }
 
   .companes_logs_homestyle {
@@ -1448,15 +1553,15 @@
   }
 
   .Nexgen_home_at {
+    padding: 0.5rem 0rem;
     width: 100%;
     color: #200229;
     text-align: center;
     font-family: Inter;
-    font-size: 15px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px;
-    /* 133.333% */
+    line-height: 24px;
   }
 
   .button_flex_homeget {
@@ -1500,13 +1605,14 @@
   .home_get_style_Consultation {
     border-radius: 7px;
     background: linear-gradient(180deg, #FFF264 0%, #FFB334 100%);
-    color: #000;
+    color: #050427;
+    text-align: center;
     font-family: Inter;
-    font-size: 8.53px;
+    font-size: 15.225px;
     font-style: normal;
     font-weight: 700;
-    line-height: 10.772px;
-    /* 126.273% */
+    border: none;
+    line-height: 100%;
   }
 
   .Responsive_font_home {
@@ -1710,7 +1816,7 @@
     padding: 1rem;
     margin-bottom: 0.5rem;
     width: 100%;
-    height: 290px;
+    height: 270px;
   }
 
   .Rowdelop_grid {

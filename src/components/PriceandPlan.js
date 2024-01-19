@@ -1,18 +1,18 @@
 import React from "react";
 import "../Styles/PriceandPlan.css";
-import price_profileimage from "../Images/AboutImages/price_profileimage.png";
+// import price_profileimage from "../Images/AboutImages/price_profileimage.png";
 import ScrollCarousel from "scroll-carousel-react";
-import { RiAddBoxLine } from "react-icons/ri";
+// import { RiAddBoxLine } from "react-icons/ri";
 import Tooltip, { tooltipClasses } from "@mui/material/Tooltip";
 import { styled } from "@mui/material/styles";
-import Female from "../Images/AboutImages/Female.png";
-import malelogo from "../Images/AboutImages/malelogo.png";
-import Malelogoboy from "../Images/AboutImages/Malelogoboy.png";
-import Malelogobo from "../Images/AboutImages/Malelogobo.png";
-import logofemalelaka from "../Images/AboutImages/logofemalelaka.png";
-import logofemalela from "../Images/AboutImages/logofemalela.png";
-import logofemalelala from "../Images/AboutImages/logofemalelala.png";
-import logofemalelali from "../Images/AboutImages/logofemalelali.png";
+// import Female from "../Images/AboutImages/Female.png";
+// import malelogo from "../Images/AboutImages/malelogo.png";
+// import Malelogoboy from "../Images/AboutImages/Malelogoboy.png";
+// import Malelogobo from "../Images/AboutImages/Malelogobo.png";
+// import logofemalelaka from "../Images/AboutImages/logofemalelaka.png";
+// import logofemalela from "../Images/AboutImages/logofemalela.png";
+// import logofemalelala from "../Images/AboutImages/logofemalelala.png";
+// import logofemalelali from "../Images/AboutImages/logofemalelali.png";
 const PriceandPlan = () => {
   const helped = [
     {
@@ -107,9 +107,9 @@ const PriceandPlan = () => {
           </div>
         </div>
         <div className="">
-          <div className="slideimg"></div>
-          <div className="slideimgRight"></div>
-          <div className="padingegs d-flex justify-content-center">
+          {/* <div className="slideimg"></div>
+          <div className="slideimgRight"></div> */}
+          {/* <div className="padingegs d-flex justify-content-center">
             <div className="back_styleprice">
               <div
                 className=""
@@ -789,11 +789,12 @@ const PriceandPlan = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className=" displayvastclocr">
-            <div className="pt-3 vestibulum_price">
+          </div> */}
+          <div className=" displayvastclocr py-5">
+            <div className="py-3 vestibulum_price">
               <ScrollCarousel
                 // smartSpeed={true}
+                left
                 autoplay
                 autoplaySpeed={80}
                 speed={5}
