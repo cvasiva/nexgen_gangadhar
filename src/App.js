@@ -19,36 +19,36 @@ const App = () => {
       <ErrorBoundary>
         <Router>
           <ScrollToTop />
-          <Routes>
+          <Routes basename="/">
+            <Route index element={<HomePage />} />
             <Route exact path="/" element={<HomePage />} />
-            <Route exact path="*" element={<ErrorBoundary />} />
-            <Route exact path="/services" element={<ServicesPage />} />
+            <Route  path="*" element={<ErrorBoundary />} />
+            <Route  path="/services" element={<ServicesPage />} />
             <Route
-              exact
+              
               path="/viewportfolio"
               element={<ViewPortfolioPage />}
             />
-            <Route exact path="/viewportfolio/:id" element={<DesignPage />} />
-            <Route exact path="/designs" element={<MenuNavigations />} />
-            <Route exact path="/designs/:id" element={<MenuNavigations />} />
+            <Route  path="/viewportfolio/:id" element={<DesignPage />} />
+            <Route  path="/designs" element={<MenuNavigations />} />
+            <Route  path="/designs/:id" element={<MenuNavigations />} />
             <Route
-              exact
+              
               path="/designs/:id/:designs"
               element={<UiuxMenuPage />}
             />
             <Route
-              exact
+              
               path="/social_media_designs"
               element={<SocialmediaBranding />}
             />
             <Route
-              exact
+              
               path="/social_media_designs/:id"
               element={<SociamediadesignPage />}
             />
-            <Route exact path="/contacts" element={<Contacts />} />
+            <Route  path="/contacts" element={<Contacts />} />
           </Routes>
-          {/* <Footer /> */}
         </Router>
       </ErrorBoundary>
     </div>
