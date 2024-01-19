@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nexgen_gangadhar/static/css/main.cae19ab7.css",
-    "main.js": "/nexgen_gangadhar/static/js/main.839c2ab7.js",
+    "main.js": "/nexgen_gangadhar/static/js/main.c9d950b6.js",
     "static/js/879.60134005.chunk.js": "/nexgen_gangadhar/static/js/879.60134005.chunk.js",
     "static/js/787.ec1b57d0.chunk.js": "/nexgen_gangadhar/static/js/787.ec1b57d0.chunk.js",
     "static/media/nexgen_mp4.mp4": "/nexgen_gangadhar/static/media/nexgen_mp4.cbc4864e3201df9a76f8.mp4",
@@ -202,12 +202,12 @@
     "static/media/inter-vietnamese-400-normal.woff2": "/nexgen_gangadhar/static/media/inter-vietnamese-400-normal.5952d3d3c5df5a2f8e09.woff2",
     "index.html": "/nexgen_gangadhar/index.html",
     "main.cae19ab7.css.map": "/nexgen_gangadhar/static/css/main.cae19ab7.css.map",
-    "main.839c2ab7.js.map": "/nexgen_gangadhar/static/js/main.839c2ab7.js.map",
+    "main.c9d950b6.js.map": "/nexgen_gangadhar/static/js/main.c9d950b6.js.map",
     "879.60134005.chunk.js.map": "/nexgen_gangadhar/static/js/879.60134005.chunk.js.map",
     "787.ec1b57d0.chunk.js.map": "/nexgen_gangadhar/static/js/787.ec1b57d0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cae19ab7.css",
-    "static/js/main.839c2ab7.js"
+    "static/js/main.c9d950b6.js"
   ]
 }
