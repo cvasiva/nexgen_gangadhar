@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/nexgen_gangadhar/static/css/main.cae19ab7.css",
-    "main.js": "/nexgen_gangadhar/static/js/main.493e1cc5.js",
+    "main.css": "/nexgen_gangadhar/static/css/main.c8694b04.css",
+    "main.js": "/nexgen_gangadhar/static/js/main.0821070f.js",
     "static/js/879.60134005.chunk.js": "/nexgen_gangadhar/static/js/879.60134005.chunk.js",
     "static/js/787.ec1b57d0.chunk.js": "/nexgen_gangadhar/static/js/787.ec1b57d0.chunk.js",
     "static/media/nexgen_mp4.mp4": "/nexgen_gangadhar/static/media/nexgen_mp4.cbc4864e3201df9a76f8.mp4",
@@ -38,6 +38,7 @@
     "static/media/jwellery1.png": "/nexgen_gangadhar/static/media/jwellery1.459209cbfdfb604bc694.png",
     "static/media/wildwarror3.png": "/nexgen_gangadhar/static/media/wildwarror3.5552354e7c11d560d632.png",
     "static/media/tech_university8.png": "/nexgen_gangadhar/static/media/tech_university8.1814075313b262057caf.png",
+    "static/media/homepagelogo2.png": "/nexgen_gangadhar/static/media/homepagelogo2.9fe2ab8d39ecc4e4c109.png",
     "static/media/wildwarror6.png": "/nexgen_gangadhar/static/media/wildwarror6.8aa959c2bd31d51d7116.png",
     "static/media/wildwarror2.png": "/nexgen_gangadhar/static/media/wildwarror2.f01b5e4c95a48bd41175.png",
     "static/media/nutrient10.png": "/nexgen_gangadhar/static/media/nutrient10.e694561cc3f2806dedbf.png",
@@ -84,7 +85,6 @@
     "static/media/nexgen_log_seection.png": "/nexgen_gangadhar/static/media/nexgen_log_seection.34a994d5861ef4bf4ba4.png",
     "static/media/43.png": "/nexgen_gangadhar/static/media/43.bb74c4a99336a755cdf1.png",
     "static/media/46.png": "/nexgen_gangadhar/static/media/46.0ea34558ba6991e9ea7a.png",
-    "static/media/homepagelogo2.png": "/nexgen_gangadhar/static/media/homepagelogo2.7cc9b3154f751f0b6b66.png",
     "static/media/Rajan_Dental5.png": "/nexgen_gangadhar/static/media/Rajan_Dental5.e3d862b2dc44518e1a3e.png",
     "static/media/12.png": "/nexgen_gangadhar/static/media/12.86370dd1e42d3177db79.png",
     "static/media/40.png": "/nexgen_gangadhar/static/media/40.1ca4b686eadece0c5db3.png",
@@ -165,13 +165,14 @@
     "static/media/laptogaqimage.png": "/nexgen_gangadhar/static/media/laptogaqimage.2d3b5122105e59fe4abd.png",
     "static/media/Visit health app_banner.png": "/nexgen_gangadhar/static/media/Visit health app_banner.f151f3ab033ff6056f47.png",
     "static/media/fresh square UX_banner.png": "/nexgen_gangadhar/static/media/fresh square UX_banner.4d08e231fecbb17fba5f.png",
+    "static/media/splashleft.png": "/nexgen_gangadhar/static/media/splashleft.9d990834262e74a38c61.png",
     "static/media/bghomenew.png": "/nexgen_gangadhar/static/media/bghomenew.efbd4fec7448e66131c0.png",
+    "static/media/digital.png": "/nexgen_gangadhar/static/media/digital.5f6fb4b9a6105165b9d4.png",
+    "static/media/splashright.png": "/nexgen_gangadhar/static/media/splashright.7824fffadaa71ef25631.png",
     "static/media/companes_logs_home123.png": "/nexgen_gangadhar/static/media/companes_logs_home123.fe65b5b1e94b19170134.png",
     "static/media/profile_homelogo12.png": "/nexgen_gangadhar/static/media/profile_homelogo12.b2008f17154d773ec6d6.png",
     "static/media/contact_bg.png": "/nexgen_gangadhar/static/media/contact_bg.fa203fcc318e230c1bf5.png",
-    "static/media/splashleft.png": "/nexgen_gangadhar/static/media/splashleft.661544511447d0f60692.png",
     "static/media/inter-latin-ext-400-normal.woff": "/nexgen_gangadhar/static/media/inter-latin-ext-400-normal.40b3b0d5e09a90fb6e3e.woff",
-    "static/media/splashright.png": "/nexgen_gangadhar/static/media/splashright.8f6ca8517134d07f5f91.png",
     "static/media/inter-latin-ext-400-normal.woff2": "/nexgen_gangadhar/static/media/inter-latin-ext-400-normal.0f9e8d4e940df8f6edfe.woff2",
     "static/media/inter-latin-400-normal.woff": "/nexgen_gangadhar/static/media/inter-latin-400-normal.08a02fd275ecea6ef662.woff",
     "static/media/price_profileimage.png": "/nexgen_gangadhar/static/media/price_profileimage.7f9155ffa7a362535e72.png",
@@ -189,7 +190,6 @@
     "static/media/inter-cyrillic-ext-400-normal.woff": "/nexgen_gangadhar/static/media/inter-cyrillic-ext-400-normal.cd2ad378115f549d3c5b.woff",
     "static/media/Malelogobo.png": "/nexgen_gangadhar/static/media/Malelogobo.4d2357a7c7ec7c8f6228.png",
     "static/media/desine_homeimages3.png": "/nexgen_gangadhar/static/media/desine_homeimages3.a6e5258cf39cce0c36a6.png",
-    "static/media/Homeimage3.png": "/nexgen_gangadhar/static/media/Homeimage3.81160d7acbf3f9307b9b.png",
     "static/media/inter-greek-400-normal.woff": "/nexgen_gangadhar/static/media/inter-greek-400-normal.1eeaf1d0bde712085ffc.woff",
     "static/media/desine_homeimages.png": "/nexgen_gangadhar/static/media/desine_homeimages.8e239ddc16a85890ded0.png",
     "static/media/inter-cyrillic-ext-400-normal.woff2": "/nexgen_gangadhar/static/media/inter-cyrillic-ext-400-normal.ac62c8eba7f954b48546.woff2",
@@ -201,13 +201,13 @@
     "static/media/inter-greek-ext-400-normal.woff2": "/nexgen_gangadhar/static/media/inter-greek-ext-400-normal.1e2b9039d9ecdbea5d80.woff2",
     "static/media/inter-vietnamese-400-normal.woff2": "/nexgen_gangadhar/static/media/inter-vietnamese-400-normal.5952d3d3c5df5a2f8e09.woff2",
     "index.html": "/nexgen_gangadhar/index.html",
-    "main.cae19ab7.css.map": "/nexgen_gangadhar/static/css/main.cae19ab7.css.map",
-    "main.493e1cc5.js.map": "/nexgen_gangadhar/static/js/main.493e1cc5.js.map",
+    "main.c8694b04.css.map": "/nexgen_gangadhar/static/css/main.c8694b04.css.map",
+    "main.0821070f.js.map": "/nexgen_gangadhar/static/js/main.0821070f.js.map",
     "879.60134005.chunk.js.map": "/nexgen_gangadhar/static/js/879.60134005.chunk.js.map",
     "787.ec1b57d0.chunk.js.map": "/nexgen_gangadhar/static/js/787.ec1b57d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cae19ab7.css",
-    "static/js/main.493e1cc5.js"
+    "static/css/main.c8694b04.css",
+    "static/js/main.0821070f.js"
   ]
 }
