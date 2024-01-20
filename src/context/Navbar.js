@@ -47,8 +47,8 @@ const NavbarPage = (args) => {
             <ul className={menuOpen ? "open ul1" : "ul1"}>
               <li className="li1">
                 <Link
-                  to="/"
-                  className={url === "/" ? " nav_bgfont" : "nav_bgfont1"}
+                  to="/nexgen_gangadhar"
+                  className={url === "/nexgen_gangadhar" ? " nav_bgfont" : "nav_bgfont1"}
                 >
                   <span>Home</span>
                 </Link>

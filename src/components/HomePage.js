@@ -1,13 +1,10 @@
 import React, { useEffect, useRef, useState } from "react";
 import "../Styles/HomePage.css";
 import Homeimage2 from "../Images/HomeImages/Homeimage2.png";
-import { BsArrowRight } from "react-icons/bs";
 import { IoIosStar } from "react-icons/io";
 import { IoIosStarHalf } from "react-icons/io";
 import malelogo from "../Images/AboutImages/malelogo.png";
 import nexgen_log_seection from "../Images/HomeImages/nexgen_log_seection.png";
-import companes_logs_home123 from "../Images/AboutImages/companes_logs_home123.png";
-import companelogomobile from "../Images/AboutImages/companelogomobile.png";
 import FrameHome9 from "../Images/HomeImages/FrameHome9.png";
 import FrameHome8 from "../Images/HomeImages/FrameHome8.png";
 import FrameHome7 from "../Images/HomeImages/FrameHome7.png";
@@ -40,6 +37,20 @@ import bgbackimghome from "../Images/AboutImages/bgbackimghome.png";
 import { Link } from "react-router-dom";
 import Footer from "./Footer";
 import { PiStarFourFill } from "react-icons/pi";
+import styled, { keyframes, css } from "styled-components";
+import Logo1 from "../Images/AboutImages/Logo1.png";
+import Logo2 from "../Images/AboutImages/Logo2.png";
+import Logo3 from "../Images/AboutImages/Logo3.png";
+import Logo4 from "../Images/AboutImages/Logo4.png";
+import Logo5 from "../Images/AboutImages/Logo5.png";
+import Logo6 from "../Images/AboutImages/Logo6.png";
+import Logo7 from "../Images/AboutImages/Logo7.png";
+import Logo8 from "../Images/AboutImages/Logo8.png";
+import Logo9 from "../Images/AboutImages/Logo9.png";
+import Logo10 from "../Images/AboutImages/Logo10.png";
+import Logo11 from "../Images/AboutImages/Logo11.png";
+import createlogoget from "../Images/AboutImages/createlogoget.png";
+import cantactgetloding from "../Images/AboutImages/cantactgetloding.png";
 function HomePage() {
   const [, setItems] = useState(10);
   useEffect(() => {
@@ -118,6 +129,101 @@ function HomePage() {
   useEffect(() => {
     attemptPlay();
   }, []);
+  const Wrapper = styled.div`
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  `;
+  const Marquee = styled.div`
+    display: flex;
+    width: 1200px;
+    overflow: hidden;
+    user-select: none;
+    mask-image: linear-gradient(
+      to right,
+      hsl(0 0% 0% / 0),
+      hsl(0 0% 0% / 1) 10%,
+      hsl(0 0% 0% / 1) 90%,
+      hsl(0 0% 0% / 0)
+    );
+  `;
+  const scrollX = keyframes`
+  from {
+    left: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+`;
+  const common = css`
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    white-space: nowrap;
+    width: 100%;
+    animation: ${scrollX} 8s linear infinite;
+  `;
+  const MarqueeGroup2 = styled.div`
+    ${common}
+    animation-direction: reverse;
+    animation-delay: -5s;
+  `;
+  const ImageGroup = styled.div`
+    display: grid;
+    place-items: center;
+    width: clamp(10rem, 1rem + 40vmin, 30rem);
+    padding: calc(clamp(10rem, 1rem + 30vmin, 30rem) / 10);
+    @media (wax-width: 40em) {
+      width: 100%;
+    }
+  `;
+  const Image = styled.img`
+    object-fit: contain;
+    width: 8vw;
+    /* border: 1px solid black; */
+    border-radius: 0.5rem;
+    aspect-ratio: 16/9;
+    padding: 5px 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    @media (wax-width: 40em) {
+      width: 100%;
+    }
+  `;
+  const MarqueeGroup = styled.div`
+    ${common}
+  `;
+  const row2 = [
+    "Logo1.png",
+    "Logo2.png",
+    "Logo3.png",
+    "Logo4.png",
+    "Logo5.png",
+    "Logo6.png",
+    "Logo7.png",
+    "Logo9.png",
+    "Logo10.png",
+    "Logo11.png",
+    "Logo12.png",
+    "Logo13.png",
+  ];
+  const row3 = [
+    "Logo13.png",
+    "Logo12.png",
+    "Logo11.png",
+    "Logo10.png",
+    "Logo9.png",
+    "Logo7.png",
+    "Logo6.png",
+    "Logo5.png",
+    "Logo4.png",
+    "Logo3.png",
+    "Logo2.png",
+    "Logo1.png",
+  ];
   return (
     <>
       <NavbarPage />
@@ -152,14 +258,14 @@ function HomePage() {
                   </div>
                   <div className=" dev_flex1_home">
                     <div>
-                      <Link to="contacts">
+                      <Link to="/contacts">
                         <button className="home_botton py-2 px-3">
+                          Get Proposal &nbsp;
                           <img
                             src={Homeimage2}
                             alt="Homeimage2"
-                            style={{ width: "22px" }}
+                            style={{ width: "16px" }}
                           />{" "}
-                          Get a Proposal
                         </button>
                       </Link>
                     </div>
@@ -335,7 +441,7 @@ function HomePage() {
                 <div className="button_flex_homeget">
                   <button className="Proposal_home_button py-1">
                     <Link
-                      to="contacts"
+                      to="/contacts"
                       style={{ textDecoration: "none", color: "#FDF9FF" }}
                     >
                       Get Proposal
@@ -343,7 +449,7 @@ function HomePage() {
                   </button>
                   <button className="Proposal_home_button1 py-1">
                     <Link
-                      to="contacts"
+                      to="/contacts"
                       style={{ textDecoration: "none", color: "#0F1825" }}
                     >
                       Get Website Audit
@@ -444,76 +550,85 @@ function HomePage() {
               </div>
             </div>
             <div className="home_gride_bg_color">
-              <div className="home_gride tdi9mq0 py-4">
-                <div>
-                  <div className="home_yourfont1">
-                    Your{" "}
-                    <span className="home_yourfont1_Expert">
-                      Expert Web Design & Development
-                    </span>{" "}
-                    Partner
-                  </div>
-                  <div className="home_arefont2 py-3">
-                    Are you looking for top-notch Website Design Services that
-                    resonate with your brand's uniqueness? At Nexgen, we
-                    specialize in Custom Web Design solutions tailored to your
-                    specific needs. Our team crafts Responsive Web Designs that
-                    adapt seamlessly across devices, ensuring an optimal user
-                    experience for your audience.
-                  </div>
-                  <div className="ensuring_flex_home">
-                    <div className="w-25">
-                      <img
-                        src={profile_homelogo12}
-                        alt="profile_homelogo12"
-                        style={{ width: "100%" }}
-                      />{" "}
+              <div className="homebgfreame">
+                <div className="home_gride tdi9mq0 py-4">
+                  <div>
+                    <div className="home_yourfont1">
+                      Your{" "}
+                      <span className="home_yourfont1_Expert">
+                        Expert Web Design & Development
+                      </span>{" "}
+                      Partner
                     </div>
-                    <div className="">
-                      <div className="faont_47_home">473+</div>
-                      <div className="home_Happy_font">Happy customers</div>
+                    <div className="home_arefont2 py-3">
+                      Are you looking for top-notch Website Design Services that
+                      resonate with your brand's uniqueness? At Nexgen, we
+                      specialize in Custom Web Design solutions tailored to your
+                      specific needs. Our team crafts Responsive Web Designs
+                      that adapt seamlessly across devices, ensuring an optimal
+                      user experience for your audience.
                     </div>
-                    <div className="border_happy_font"></div>
-                    <div>
-                      <div className="Reviews_font_home">
-                        <FcGoogle className="fs-4" /> Reviews
+                    <div className="ensuring_flex_home">
+                      <div className="w-25">
+                        <img
+                          src={profile_homelogo12}
+                          alt="profile_homelogo12"
+                          style={{ width: "100%" }}
+                        />{" "}
                       </div>
+                      <div className="">
+                        <div className="faont_47_home">473+</div>
+                        <div className="home_Happy_font">Happy customers</div>
+                      </div>
+                      <div className="border_happy_font"></div>
                       <div>
-                        <div className="d-flex gap-1">
-                          <div className="font_5P_home"> 5.0 </div>
-                          <div>
-                            <IoIosStar className="homestar_color" />
-                          </div>
-                          <div>
-                            <IoIosStar className="homestar_color" />
-                          </div>
-                          <div>
-                            <IoIosStar className="homestar_color" />
-                          </div>
-                          <div>
-                            <IoIosStar className="homestar_color" />
-                          </div>
-                          <div>
-                            <IoIosStarHalf className="homestar_color" />
+                        <div className="Reviews_font_home">
+                          <FcGoogle className="fs-4" /> Reviews
+                        </div>
+                        <div>
+                          <div className="d-flex gap-1">
+                            <div className="font_5P_home"> 5.0 </div>
+                            <div>
+                              <IoIosStar className="homestar_color" />
+                            </div>
+                            <div>
+                              <IoIosStar className="homestar_color" />
+                            </div>
+                            <div>
+                              <IoIosStar className="homestar_color" />
+                            </div>
+                            <div>
+                              <IoIosStar className="homestar_color" />
+                            </div>
+                            <div>
+                              <IoIosStarHalf className="homestar_color" />
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
+                    <div className="pt-3 pb-5">
+                      <div>
+                        <Link to="/contacts">
+                          <button className="home_botton py-2 px-3">
+                            Get Proposal &nbsp;
+                            <img
+                              src={Homeimage2}
+                              alt="Homeimage2"
+                              style={{ width: "16px" }}
+                            />{" "}
+                          </button>
+                        </Link>
+                      </div>
+                    </div>
                   </div>
-                  <div className="pt-3 pb-5">
-                    <Link to="contacts">
-                      <button className="home_get_style_Consultation py-2 px-4">
-                        Free Consultation <BsArrowRight />
-                      </button>
-                    </Link>
+                  <div className="py-3">
+                    <img
+                      src={nexgen_log_seection}
+                      alt="nexgen_log_seection"
+                      className="Homeimage5_style"
+                    />
                   </div>
-                </div>
-                <div className="py-3">
-                  <img
-                    src={nexgen_log_seection}
-                    alt="nexgen_log_seection"
-                    className="Homeimage5_style"
-                  />
                 </div>
               </div>
             </div>
@@ -603,22 +718,73 @@ function HomePage() {
               <div className="home_mostly_font mt-5">
                 Experienced with top overseas firms
               </div>
-              <div className="text-center  pt-4 pb-5">
-                <img
-                  src={companes_logs_home123}
-                  alt="companes_logs_home123"
-                  className="companes_logs_homestyle"
-                />
-                <img
-                  src={companelogomobile}
-                  alt="companelogomobile"
-                  className="companelogomobilestyle"
-                />
+              <div className="text-center  pt-4 pb-3 overseas_logo1">
+                <Wrapper>
+                  <Marquee>
+                    <MarqueeGroup2>
+                      {row2.map((el) => (
+                        <ImageGroup>
+                          <Image src={require(`../Images/AboutImages/${el}`)} />
+                        </ImageGroup>
+                      ))}
+                    </MarqueeGroup2>
+                  </Marquee>
+                </Wrapper>
+                <Wrapper>
+                  <Marquee>
+                    <MarqueeGroup>
+                      {row3.map((el) => (
+                        <ImageGroup>
+                          <Image src={require(`../Images/AboutImages/${el}`)} />
+                        </ImageGroup>
+                      ))}
+                    </MarqueeGroup>
+                  </Marquee>
+                </Wrapper>
+              </div>
+              <div className="AboutImages_log12 py-4">
+                <ScrollCarousel autoplay autoplaySpeed={80} speed={5}>
+                  <div className="d-flex gap-2">
+                    <div>
+                      <img src={Logo1} alt="Logo" className="logoabout" />
+                    </div>
+                    <div>
+                      <img src={Logo2} alt="logo2" className="logoabout" />
+                    </div>
+                    <div>
+                      <img src={Logo4} alt="log3" className="logoabout" />
+                    </div>
+                    <div>
+                      <img src={Logo5} alt="logo5" className="logoabout" />
+                    </div>
+                    <div>
+                      <img src={Logo6} alt="logo6" className="logoabout" />
+                    </div>
+                    <div>
+                      <img src={Logo7} alt="logo7" className="logoabout" />
+                    </div>
+                    <div>
+                      <img src={Logo8} alt="logo9" className="logoabout" />
+                    </div>
+                    <div>
+                      <img src={Logo9} alt="logo10" className="logoabout" />
+                    </div>
+                    <div>
+                      <img src={Logo10} alt="logo11" className="logoabout" />
+                    </div>
+                    <div>
+                      <img src={Logo11} alt="logo12" className="logoabout" />
+                    </div>
+                    <div>
+                      <img src={Logo3} alt="logo13" className="logoabout" />
+                    </div>
+                  </div>
+                </ScrollCarousel>
               </div>
             </div>
           </div>
-          <div className="Hpme_card5_bg">
-            <div>
+          <div className="Hpme_card5_bg ">
+            <div className="homebgfreame">
               <div className="d-flex justify-content-center tdi9mq0 tdi9mq4">
                 <div className="bg_home_card_makes">
                   <div>
@@ -659,16 +825,18 @@ function HomePage() {
                 using your website.
               </div>
               <div className="Homeimage2_button pb-5 pt-4">
-                <Link to="contacts">
-                  <button className="home_botton py-2 px-3">
-                    <img
-                      src={Homeimage2}
-                      alt="Homeimage2"
-                      style={{ width: "22px" }}
-                    />{" "}
-                    Get Started
-                  </button>
-                </Link>
+                <div>
+                  <Link to="/contacts">
+                    <button className="home_botton py-2 px-3">
+                      Get Proposal &nbsp;
+                      <img
+                        src={Homeimage2}
+                        alt="Homeimage2"
+                        style={{ width: "16px" }}
+                      />{" "}
+                    </button>
+                  </Link>
+                </div>
               </div>
             </div>
             <div className="system_homeimage12">
@@ -685,6 +853,26 @@ function HomePage() {
         </div>
         <div className="home_card6_bg pb-5">
           <FaqHandbook />
+        </div>
+        <div className="py-5">
+          <div className="tdi9mq0 tdi9mq4">
+            <Link to="/contacts">
+              <div className="createlogoget">
+                <img
+                  src={createlogoget}
+                  alt="createlogoget"
+                  style={{ width: "100%" }}
+                />
+              </div>
+              <div className="cantactgetloding">
+                <img
+                  src={cantactgetloding}
+                  alt="createlogoget"
+                  style={{ width: "100%" }}
+                />
+              </div>
+            </Link>
+          </div>
         </div>
         <Footer />
       </div>

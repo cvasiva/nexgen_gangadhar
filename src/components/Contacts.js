@@ -50,7 +50,7 @@ const Contacts = () => {
   return (
     <div>
       <NavbarPage />
-      <div className="home_card6_bg pb-5">
+      <div className="home_card6_bg">
         <div className="letspaddingcrete">
           <div className="Together_handbook pb-5">
             Let's Create Your <br />
@@ -176,8 +176,7 @@ const Contacts = () => {
                         <div>
                           Bangalore,
                           <br /> Basavanagudi, Karnataka-560004 <br />
-                          Chennai,
-                          <br />
+                          <div className="mt-3">Chennai,</div>
                           T-nagar, Tamil Nadu-600017 <br />
                           Your Digital Partner from India❤️
                         </div>

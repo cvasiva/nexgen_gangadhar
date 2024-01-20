@@ -216,8 +216,8 @@
 .Lacus_price_bg {
     border-radius: 18.604px;
     background: var(--White, #FFF);
-    /* box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.07), 0px 10px 15px -3px rgba(0, 0, 0, 0.10); */
-    width: 383.244px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.07), 0px 10px 15px -3px rgba(0, 0, 0, 0.10);
+    /* width: 383.244px; */
     /* height: 35vh; */
 }
 
@@ -237,8 +237,6 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 160%;
-    /* 28.8px */
 }
 
 .Counselor_price {
@@ -249,8 +247,6 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 140%;
-    /* 22.4px */
 }
 
 .price_fromflex {
@@ -518,7 +514,7 @@
     .Lacus_price_bg {
         border-radius: 18.604px;
         background: var(--White, #FFF);
-        /* box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.07), 0px 10px 15px -3px rgba(0, 0, 0, 0.10); */
+        box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.07), 0px 10px 15px -3px rgba(0, 0, 0, 0.10);
         /* width: 383.244px;
         height: 35vh; */
     }
@@ -539,8 +535,6 @@
         font-size: 18px;
         font-style: normal;
         font-weight: 400;
-        line-height: 160%;
-        /* 28.8px */
     }
 
     .Counselor_price {
@@ -551,13 +545,11 @@
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
-        line-height: 140%;
-        /* 22.4px */
     }
 
     .price_fromflex {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         gap: 1rem;
     }
 
@@ -797,7 +789,7 @@
     .Lacus_price_bg {
         border-radius: 18.604px;
         background: var(--White, #FFF);
-        /* box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.07), 0px 10px 15px -3px rgba(0, 0, 0, 0.10); */
+        box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.07), 0px 10px 15px -3px rgba(0, 0, 0, 0.10);
         /* width: 383.244px;
         height: 35vh; */
     }
@@ -818,8 +810,6 @@
         font-size: 18px;
         font-style: normal;
         font-weight: 400;
-        line-height: 160%;
-        /* 28.8px */
     }
 
     .Counselor_price {
@@ -830,13 +820,11 @@
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
-        line-height: 140%;
-        /* 22.4px */
     }
 
     .price_fromflex {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         gap: 1rem;
     }
 

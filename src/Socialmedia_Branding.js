@@ -63,7 +63,7 @@ const Socialmedia_Branding = () => {
                   ) : (
                     <div className="d-flex align-items-center ">
                       <CiMenuBurger className="text-white fw-bolder" />{" "}
-                      <span className="ms-2">Menu</span>
+                      <span className="ms-2 fs-4">Menu</span>
                     </div>
                   )}
                 </div>

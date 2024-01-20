@@ -39,14 +39,6 @@ const PriceandPlan = () => {
       disignation: "Success Edge",
       icon: "Malelogoboy.png",
     },
-    {
-      id: 4,
-      Lacus:
-        "Thank you for making our vision a reality. Responsive, creative, and a joy to work with!",
-      name: "Hellena Siva",
-      disignation: "Psychology Student",
-      icon: "Malelogobo.png",
-    },
   ];
   const helped1 = [
     {
@@ -72,14 +64,6 @@ const PriceandPlan = () => {
       name: "Hellena John",
       disignation: "Success Edge",
       icon: "logofemalelala.png",
-    },
-    {
-      id: 4,
-      Lacus:
-        "A heartfelt thanks for the stellar website. Professionalism, creativity, and a commitment to perfection—remarkable experience!",
-      name: "Hellena Siva",
-      disignation: "Iproledge",
-      icon: "logofemalelali.png",
     },
   ];
 
@@ -791,49 +775,34 @@ const PriceandPlan = () => {
             </div>
           </div> */}
           <div className=" displayvastclocr py-5">
-            <div className="py-3 vestibulum_price">
-              <ScrollCarousel
-                // smartSpeed={true}
-                left
-                autoplay
-                autoplaySpeed={80}
-                speed={5}
-              >
-                <div className="price_fromflex">
-                  {helped.map((uesr, index) => {
-                    return (
-                      <div className="">
-                        <div className="Lacus_price_bg ">
-                          <p className="vestibulum_font_price">{uesr.Lacus}</p>
-                          <div className="d-flex gap-2">
-                            <div className="text-center">
-                              <img
-                                src={require(`../Images/AboutImages/${uesr.icon}`)}
-                                alt="price_profileimage"
-                                style={{ width: "60%" }}
-                              />{" "}
-                            </div>
-                            <div className="py-2">
-                              <div className="Hellen_price">{uesr.name}</div>
-                              <div className="py-1 Counselor_price">
-                                {uesr.disignation}
-                              </div>
+            <div className="vestibulum_price tdi9mq0 tdi9mq4">
+              <div className="price_fromflex">
+                {helped.map((uesr, index) => {
+                  return (
+                    <div className="">
+                      <div className="Lacus_price_bg ">
+                        <p className="vestibulum_font_price">{uesr.Lacus}</p>
+                        <div className="d-flex gap-2">
+                          <div className="text-center">
+                            <img
+                              src={require(`../Images/AboutImages/${uesr.icon}`)}
+                              alt="price_profileimage"
+                              style={{ width: "60%" }}
+                            />{" "}
+                          </div>
+                          <div className="py-2">
+                            <div className="Hellen_price">{uesr.name}</div>
+                            <div className="Counselor_price">
+                              {uesr.disignation}
                             </div>
                           </div>
                         </div>
                       </div>
-                    );
-                  })}
-                </div>
-              </ScrollCarousel>
-            </div>
-            <div className="my-2">
-              <ScrollCarousel
-                // smartSpeed={true}
-                autoplay
-                autoplaySpeed={80}
-                speed={5}
-              >
+                    </div>
+                  );
+                })}
+              </div>
+              <div className="my-2">
                 <div className="price_fromflex">
                   {helped1.map((uesr, index) => {
                     return (
@@ -850,7 +819,7 @@ const PriceandPlan = () => {
                             </div>
                             <div className="py-2">
                               <div className="Hellen_price">{uesr.name}</div>
-                              <div className="py-1 Counselor_price">
+                              <div className="Counselor_price">
                                 {uesr.disignation}
                               </div>
                             </div>
@@ -860,7 +829,7 @@ const PriceandPlan = () => {
                     );
                   })}
                 </div>
-              </ScrollCarousel>
+              </div>
             </div>
           </div>
         </div>

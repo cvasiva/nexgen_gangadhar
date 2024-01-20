@@ -5,7 +5,7 @@ import { Col, Row } from "reactstrap";
 import { websit } from "../HomePage/HomePagejson";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { CiMenuBurger } from "react-icons/ci";
+import { FaBars } from "react-icons/fa";
 import { VscClose } from "react-icons/vsc";
 import Navbarsecond from "../context/Navbarsecond";
 import Footer from "./Footer";
@@ -56,7 +56,7 @@ const View_Portfolio_Page = () => {
         {navbar ? (
           <>
             <nav
-              className="NavbarItems py-4"
+              className="NavbarItems ps-4"
               style={{
                 background:
                   "linear-gradient(224deg, #172271 9.84%, rgba(0, 0, 0, 0.00) 66.2%), #040229",
@@ -68,8 +68,8 @@ const View_Portfolio_Page = () => {
                     <VscClose className="text-white fw-bold" />
                   ) : (
                     <div className="d-flex align-items-center ">
-                      <CiMenuBurger className="text-white fw-bolder" />{" "}
-                      <span className="ms-2">Menu</span>
+                      <FaBars className="text-white fw-bolder fs-2" />{" "} &nbsp; &nbsp;
+                      <span className="ms-2 fs-1">Menu</span>
                     </div>
                   )}
                 </div>

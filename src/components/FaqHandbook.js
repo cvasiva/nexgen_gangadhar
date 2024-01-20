@@ -3,12 +3,6 @@ import "../Styles/FaqHandbookstyle.css";
 import { BsChevronDown } from "react-icons/bs";
 import { BsChevronUp } from "react-icons/bs";
 import { Queries_Decoded } from "../HomePage/HomePagejson";
-import laptogaqimage from "../Images/AboutImages/laptogaqimage.png";
-import digital from "../Images/AboutImages/digital.png";
-import profile_homelogo12 from "../Images/HomeImages/profile_homelogo12.png";
-import { IoIosStar } from "react-icons/io";
-import { IoIosStarHalf } from "react-icons/io";
-import { FcGoogle } from "react-icons/fc";
 import { Link } from "react-router-dom";
 const FaqHandbook = () => {
   const [toggle, setToggle] = useState(true);
@@ -63,7 +57,7 @@ const FaqHandbook = () => {
                   <div>
                     {" "}
                     {toggle[item.id] && (
-                      <div className="content_bspan"> {item.discription} </div>
+                      <div className="content_bspan my-2" style={{color:"#FFF"}}> {item.discription} </div>
                     )}{" "}
                   </div>
                 </div>
@@ -72,7 +66,7 @@ const FaqHandbook = () => {
           })}
         </div>
       </div>
-      <div className="py-5 " style={{ background: "#FFF" }}>
+      {/* <div className="py-5 " style={{ background: "#FFF" }}>
         <div className="tdi9mq0 tdi9mq4">
           <div className="your_faq">
             <div className="pading_callfaq">
@@ -125,14 +119,6 @@ const FaqHandbook = () => {
               </div>
             </div>
             <div className="callback_flexfaq">
-              <div className="top_call_back w-100 txet-center">
-                {" "}
-                <Link to="contacts">
-                  <button className="Call_faq_style py-2">
-                    Get a Call back
-                  </button>
-                </Link>
-              </div>
               <div className="text-end w-100">
                 <img
                   src={laptogaqimage}
@@ -143,7 +129,7 @@ const FaqHandbook = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };
