@@ -5,6 +5,8 @@ import { corporate_banners } from "../HomePage/HomePagejson";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Footer from "./Footer";
+import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
+import { Card } from "reactstrap";
 const Corporate_campaigns = () => {
   useEffect(() => {
     AOS.init({ duration: 1200 });
@@ -57,19 +59,26 @@ const Corporate_campaigns = () => {
             Explore our collection of newsletters and <br /> posters for leading
             corporates
           </div>
-          <div class="gallery">
-            {corporate_banners.map((item, i) => {
-              return (
-                <div className="gallery-item mb-3" data-aos="fade-up" key={i}>
-                  <img
-                    src={require(`../Corporate-Designs/${item.pathimage}`)}
-                    className="grid_img w-100"
-                    alt="webpage"
-                    style={{ objectFit: "contain" }}
-                  />
-                </div>
-              );
-            })}
+          <div>
+            <ResponsiveMasonry
+              columnsCountBreakPoints={{ 350: 2, 750: 3, 900: 4 }}
+              className="mx-2"
+            >
+              <Masonry gutter='10px' className="grid">
+                {corporate_banners.map((item, i) => {
+                  return (
+                    <Card className='shadow rounded rounded-3 p-1 bg-dark border border-dark' data-aos="fade-up" key={i} style={{opacity:'0.8'}}>
+                      <img
+                        src={require(`../Corporate-Designs/${item.pathimage}`)}
+                        style={{ width: "100%",height:'100%',display:'inline-block' }}
+                        className="shadow rounded  rounded-3"
+                        alt="webpage"
+                      />
+                    </Card>
+                  );
+                })}
+              </Masonry>
+            </ResponsiveMasonry>
           </div>
         </div>
       </div>
