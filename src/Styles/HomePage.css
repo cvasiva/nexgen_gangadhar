@@ -1009,12 +1009,12 @@
 
 @media (max-width: 40em) {
   .homebgfreame{
-    display: none;
+    display: block;
     background-image: url("../Images//AboutImages/fremebghome.png");
     background-blend-mode: overlay, normal;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 85vh;
+    height: 100%;
   }
   .cantactgetloding {
     display: block;
@@ -1702,12 +1702,12 @@
 
 @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
   .homebgfreame{
-    display: none;
+    display: block;
     background-image: url("../Images//AboutImages/fremebghome.png");
     background-blend-mode: overlay, normal;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 85vh;
+    height: 100%;
   }
   .slideimg1 {
     display: none;
