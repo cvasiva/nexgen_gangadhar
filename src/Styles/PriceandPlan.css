@@ -255,15 +255,6 @@
     gap: 1rem;
 }
 
-.back_styleprice {
-    background: url("../Images/AboutImages/indamaplogo_home.png");
-    background-blend-mode: overlay, normal;
-    width: 100vh;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 120vh;
-}
 
 /* 
 .bagsrountooltip{

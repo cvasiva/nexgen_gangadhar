@@ -30,10 +30,10 @@ import desine_homeimages2 from "../Images/HomeImages/desine_homeimages2.png";
 import NavbarPage from "../context/Navbar";
 import { FcGoogle } from "react-icons/fc";
 import Fade from "react-reveal/Fade";
-import homepagelogo2 from "../Images/AboutImages/homepagelogo2.png";
-import homelogpage1 from "../Images/AboutImages/homelogpage1.png";
+import homepagelogo2 from "../Images/AboutImages/homepagelogo2.webp";
+import homelogpage1 from "../Images/AboutImages/homelogpage1.webp";
 import whateabutbg from "../Images/AboutImages/whateabutbg.png";
-import bgbackimghome from "../Images/AboutImages/bgbackimghome.png";
+import bgbackimghome from "../Images/AboutImages/bgbackimghome.webp";
 import { Link } from "react-router-dom";
 import Footer from "./Footer";
 import { PiStarFourFill } from "react-icons/pi";
@@ -49,8 +49,8 @@ import Logo8 from "../Images/AboutImages/Logo8.png";
 import Logo9 from "../Images/AboutImages/Logo9.png";
 import Logo10 from "../Images/AboutImages/Logo10.png";
 import Logo11 from "../Images/AboutImages/Logo11.png";
-import createlogoget from "../Images/AboutImages/createlogoget.png";
-import cantactgetloding from "../Images/AboutImages/cantactgetloding.png";
+import createlogoget from "../Images/AboutImages/createlogoget.webp";
+import cantactgetloding from "../Images/AboutImages/cantactgetloding.webp";
 function HomePage() {
   const [, setItems] = useState(10);
   useEffect(() => {
