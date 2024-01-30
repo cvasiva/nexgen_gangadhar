@@ -23,27 +23,27 @@ export const hamePage = [
 export const hamePageImage = [
     {
         id: 1,
-        devimage: "../Images/HomeImages/Homeimage6.png"
+        devimage: "../Images/HomeImages/Homeimage6.webp"
     },
     {
         id: 2,
-        devimage: "../Images/HomeImages/Homeimage6.png"
+        devimage: "../Images/HomeImages/Homeimage6.webp"
     },
     {
         id: 3,
-        devimage: "../Images/HomeImages/Homeimage6.png"
+        devimage: "../Images/HomeImages/Homeimage6.webp"
     },
     {
         id: 4,
-        devimage: "../Images/HomeImages/Homeimage6.png"
+        devimage: "../Images/HomeImages/Homeimage6.webp"
     },
     {
         id: 5,
-        devimage: "../Images/HomeImages/Homeimage6.png"
+        devimage: "../Images/HomeImages/Homeimage6.webp"
     },
     {
         id: 6,
-        devimage: "../Images/HomeImages/Homeimage6.png"
+        devimage: "../Images/HomeImages/Homeimage6.webp"
     },
 ]
 export const Queries_Decoded = [
@@ -129,214 +129,214 @@ export const websit = [
     {
         id: 1,
         url: "Visit_Health",
-        pathimage: "website.png",
+        pathimage: "website.webp",
         title: 'Visit Health',
         year: "2023",
-        path_svg: "Visit_healthi.png"
+        path_svg: "Visit_healthi.webp"
     },
     {
         id: 2,
         url: "Jobify",
-        pathimage: "website1.png",
+        pathimage: "website1.webp",
         title: 'Jobify.com',
         year: "2023",
-        path_svg: "Jobify.png"
+        path_svg: "Jobify.webp"
     },
     {
         id: 3,
         url: "Bizzlab",
-        pathimage: "website2.png",
+        pathimage: "website2.webp",
         title: 'Bizzlab',
         year: "2023",
-        path_svg: "Bizzlab.png"
+        path_svg: "Bizzlab.webp"
     },
     {
         id: 4,
         url: "Optimex",
-        pathimage: "website4.png",
+        pathimage: "website4.webp",
         title: 'Optimex',
         year: "2023",
-        path_svg: "Optimex.png"
+        path_svg: "Optimex.webp"
     },
     {
         id: 5,
         url: "Salsalito",
-        pathimage: "website5.png",
+        pathimage: "website5.webp",
         title: 'Salsalito',
         year: "2023",
-        path_svg: "Salsalito.png"
+        path_svg: "Salsalito.webp"
     },
     {
         id: 6,
         url: "Nurtem",
-        pathimage: "website6.png",
+        pathimage: "website6.webp",
         title: 'Nurtem',
         year: "2023",
-        path_svg: "Nutrum.png"
+        path_svg: "Nutrum.webp"
     },
     {
         id: 7,
         url: "Firebolt",
-        pathimage: "website7.png",
+        pathimage: "website7.webp",
         title: 'Firebolt',
         year: "2023",
-        path_svg: "Firebolt_1.png"
+        path_svg: "Firebolt_1.webp"
     },
     {
         id: 8,
         url: "Firebolt",
-        pathimage: "website8.png",
+        pathimage: "website8.webp",
         title: 'Firebolt',
         year: "2023",
-        path_svg: "Firebolt_2.png"
+        path_svg: "Firebolt_2.webp"
     },
     {
         id: 9,
         url: "Maxwell_Gaming",
-        pathimage: "website9.png",
+        pathimage: "website9.webp",
         title: 'Maxwell Gaming',
         year: "2023",
-        path_svg: "Maxwell.png"
+        path_svg: "Maxwell.webp"
     },
     {
         id: 10,
         url: "alpha_college",
-        pathimage: "website10.png",
+        pathimage: "website10.webp",
         title: 'Alpha College',
         year: "2023",
-        path_svg: "Alpha_college.png"
+        path_svg: "Alpha_college.webp"
     },
     {
         id: 11,
         url: "Era_realestate",
-        pathimage: "website11.png",
+        pathimage: "website11.webp",
         title: 'ERA Realestate',
         year: "2023",
-        path_svg: "ERA_real_estate.png"
+        path_svg: "ERA_real_estate.webp"
     },
     {
         id: 12,
         url: "vito_hospital",
-        pathimage: "website12.png",
+        pathimage: "website12.webp",
         title: 'Vito Hospitals',
         year: "2023",
-        path_svg: "Vito_Hopsitals.png"
+        path_svg: "Vito_Hopsitals.webp"
     },
     {
         id: 13,
         url: "Intellect",
-        pathimage: "website13.png",
+        pathimage: "website13.webp",
         title: 'Intellect',
         year: "2023",
-        path_svg: "Intellect.png"
+        path_svg: "Intellect.webp"
     },
     {
         id: 14,
         url: "Covid_Awareness",
-        pathimage: "website14.png",
+        pathimage: "website14.webp",
         title: 'Covid Awareness',
         year: "2023",
-        path_svg: "Covid_Awarness.png"
+        path_svg: "Covid_Awarness.webp"
     },
     {
         id: 15,
         url: "product",
-        pathimage: "website15.png",
+        pathimage: "website15.webp",
         title: 'Product',
         year: "2023",
-        path_svg: "Product_page.png"
+        path_svg: "Product_page.webp"
     },
 ]
 export const social_media = [
     {
         id: 1,
         url: "nuterm",
-        pathimage: "1.png",
+        pathimage: "1.webp",
         title: 'Nuterm',
         year: "2023",
         path_svg: [
-            "nutrient1.png",
-            "nutrient2.png",
-            "nutrient3.png",
-            "nutrient4.png",
-            "nutrient5.png",
-            "nutrient6.png",
-            "nutrient7.png",
-            "nutrient8.png",
-            "nutrient9.png",
-            "nutrient10.png",
-            "nutrient11.png",
-            "nutrient12.png",
-            "nutrient13.png",
+            "nutrient1.webp",
+            "nutrient2.webp",
+            "nutrient3.webp",
+            "nutrient4.webp",
+            "nutrient5.webp",
+            "nutrient6.webp",
+            "nutrient7.webp",
+            "nutrient8.webp",
+            "nutrient9.webp",
+            "nutrient10.webp",
+            "nutrient11.webp",
+            "nutrient12.webp",
+            "nutrient13.webp",
         ]
     },
     {
         id: 2,
         url: "Rajan_dental",
-        pathimage: "2.png",
+        pathimage: "2.webp",
         title: 'Rajan Dental',
         year: "2023",
         path_svg: [
-            "Rajan_Dental1.png",
-            "Rajan_Dental2.png",
-            "Rajan_Dental3.png",
-            "Rajan_Dental4.png",
-            "Rajan_Dental5.png",
-            "Rajan_Dental6.png",
-            "Rajan_Dental7.png",
-            "Rajan_Dental8.png",
-            "Rajan_Dental9.png",
-            "Rajan_Dental10.png",
-            "Rajan_Dental11.png",
-            "Rajan_Dental12.png",
+            "Rajan_Dental1.webp",
+            "Rajan_Dental2.webp",
+            "Rajan_Dental3.webp",
+            "Rajan_Dental4.webp",
+            "Rajan_Dental5.webp",
+            "Rajan_Dental6.webp",
+            "Rajan_Dental7.webp",
+            "Rajan_Dental8.webp",
+            "Rajan_Dental9.webp",
+            "Rajan_Dental10.webp",
+            "Rajan_Dental11.webp",
+            "Rajan_Dental12.webp",
         ]
     },
     {
         id: 3,
         url: "tech_university",
-        pathimage: "3.png",
+        pathimage: "3.webp",
         title: 'Tech/University',
         year: "2023",
         path_svg: [
-            "tech_university1.png",
-            "tech_university2.png",
-            "tech_university3.png",
-            "tech_university4.png",
-            "tech_university5.png",
-            "tech_university6.png",
-            "tech_university7.png",
-            "tech_university8.png",
+            "tech_university1.webp",
+            "tech_university2.webp",
+            "tech_university3.webp",
+            "tech_university4.webp",
+            "tech_university5.webp",
+            "tech_university6.webp",
+            "tech_university7.webp",
+            "tech_university8.webp",
         ]
     },
     {
         id: 4,
         url: "fashion_jewellery",
-        pathimage: "4.png",
+        pathimage: "4.webp",
         title: 'Fashion Jewellary',
         year: "2023",
         path_svg: [
-            "jwellery1.png",
-            "jwellery2.png",
-            "jwellery3.png",
-            "jwellery4.png",
-            "jwellery5.png",
+            "jwellery1.webp",
+            "jwellery2.webp",
+            "jwellery3.webp",
+            "jwellery4.webp",
+            "jwellery5.webp",
         ]
     },
     {
         id: 5,
         url: "Wild_warrior",
-        pathimage: "5.png",
+        pathimage: "5.webp",
         title: 'Wild Warrior',
         year: "2023",
         path_svg: [
-            "wildwarror1.png",
-            "wildwarror2.png",
-            "wildwarror3.png",
-            "wildwarror4.png",
-            "wildwarror5.png",
-            "wildwarror6.png",
-            "wildwarror7.png",
-            "wildwarror8.png",
+            "wildwarror1.webp",
+            "wildwarror2.webp",
+            "wildwarror3.webp",
+            "wildwarror4.webp",
+            "wildwarror5.webp",
+            "wildwarror6.webp",
+            "wildwarror7.webp",
+            "wildwarror8.webp",
         ]
     },
 ]
@@ -344,459 +344,459 @@ export const Ui_ux_banners = [
     {
         id: 1,
         url: "Visit_Health",
-        pathimage: "Visit health app_banner.png",
+        pathimage: "Visit health app_banner.webp",
         title: 'Visit Health',
         year: "2023",
-        path_svg: "Visit_Health_App_fullfledge.png"
+        path_svg: "Visit_Health_App_fullfledge.webp"
     },
     {
         id: 2,
         url: "App_MArket",
-        pathimage: "app market place_banner.png",
+        pathimage: "app market place_banner.webp",
         title: 'Jobify.com',
         year: "2023",
-        path_svg: "App_Market_Place_fullfledge.png"
+        path_svg: "App_Market_Place_fullfledge.webp"
     },
     {
         id: 3,
         url: "Intellect_Inc",
-        pathimage: "Intellect_banner.png",
+        pathimage: "Intellect_banner.webp",
         title: 'Intellect Inc',
         year: "2023",
-        path_svg: "Intellect_Inc_fullfledge.png"
+        path_svg: "Intellect_Inc_fullfledge.webp"
     },
     {
         id: 4,
         url: "Jobify_Dashboard",
-        pathimage: "jobify_banner.png",
+        pathimage: "jobify_banner.webp",
         title: 'Jobify Dashboard',
         year: "2023",
-        path_svg: "Jobify_Dashboard_fullfledge.png"
+        path_svg: "Jobify_Dashboard_fullfledge.webp"
     },
     {
         id: 5,
         url: "Bizzlab_dashboard",
-        pathimage: "bizzlab dashboard_banner.png",
+        pathimage: "bizzlab dashboard_banner.webp",
         title: 'Bizzlab Dashboard',
         year: "2023",
-        path_svg: "Bizzlab_dashboard_fullfledge.png"
+        path_svg: "Bizzlab_dashboard_fullfledge.webp"
     },
     {
         id: 6,
         url: "Fresh_Square",
-        pathimage: "fresh square_banner.png",
+        pathimage: "fresh square_banner.webp",
         title: 'Fresh Square',
         year: "2023",
-        path_svg: "Fresh_Square_fullfledge.png"
+        path_svg: "Fresh_Square_fullfledge.webp"
     },
     {
         id: 7,
         url: "Fresh_ux",
-        pathimage: "fresh square UX_banner.png",
+        pathimage: "fresh square UX_banner.webp",
         title: 'Fresh UX',
         year: "2023",
-        path_svg: "Fresh_Square_UX_fullfledge.png"
+        path_svg: "Fresh_Square_UX_fullfledge.webp"
     },
 ]
 export const corporate_banners = [
     {
         id: 1,
         url: "Visit_Health",
-        pathimage: "1.png",
+        pathimage: "1.webp",
         title: 'Visit Health',
         year: "2023",
-        path_svg: "1.png"
+        path_svg: "1.webp"
     },
     {
         id: 2,
         url: "App_MArket",
-        pathimage: "2.png",
+        pathimage: "2.webp",
         title: 'Jobify.com',
         year: "2023",
-        path_svg: "2.png"
+        path_svg: "2.webp"
     },
     {
         id: 3,
         url: "Intellect_Inc",
-        pathimage: "3.png",
+        pathimage: "3.webp",
         title: 'Intellect Inc',
         year: "2023",
-        path_svg: "3.png"
+        path_svg: "3.webp"
     },
     {
         id: 4,
         url: "Jobify_Dashboard",
-        pathimage: "4.png",
+        pathimage: "4.webp",
         title: 'Jobify Dashboard',
         year: "2023",
-        path_svg: "4.png"
+        path_svg: "4.webp"
     },
     {
         id: 5,
         url: "Bizzlab_dashboard",
-        pathimage: "5.png",
+        pathimage: "5.webp",
         title: 'Bizzlab Dashboard',
         year: "2023",
-        path_svg: "5.png"
+        path_svg: "5.webp"
     },
     {
         id: 6,
         url: "Fresh_Square",
-        pathimage: "6.png",
+        pathimage: "6.webp",
         title: 'Fresh Square',
         year: "2023",
-        path_svg: "6.png"
+        path_svg: "6.webp"
     },
     {
         id: 7,
         url: "Fresh_ux",
-        pathimage: "7.png",
+        pathimage: "7.webp",
         title: 'Fresh UX',
         year: "2023",
-        path_svg: "7.png"
+        path_svg: "7.webp"
     },
     {
         id: 8,
         url: "Visit_Health",
-        pathimage: "8.png",
+        pathimage: "8.webp",
         title: 'Visit Health',
         year: "2023",
-        path_svg: "8.png"
+        path_svg: "8.webp"
     },
     {
         id: 9,
         url: "App_MArket",
-        pathimage: "9.png",
+        pathimage: "9.webp",
         title: 'Jobify.com',
         year: "2023",
-        path_svg: "9.png"
+        path_svg: "9.webp"
     },
     {
         id: 10,
         url: "Intellect_Inc",
-        pathimage: "10.png",
+        pathimage: "10.webp",
         title: 'Intellect Inc',
         year: "2023",
-        path_svg: "10.png"
+        path_svg: "10.webp"
     },
     {
         id: 11,
         url: "Jobify_Dashboard",
-        pathimage: "11.png",
+        pathimage: "11.webp",
         title: 'Jobify Dashboard',
         year: "2023",
-        path_svg: "11.png"
+        path_svg: "11.webp"
     },
     {
         id: 12,
         url: "Bizzlab_dashboard",
-        pathimage: "12.png",
+        pathimage: "12.webp",
         title: 'Bizzlab Dashboard',
         year: "2023",
-        path_svg: "12.png"
+        path_svg: "12.webp"
     },
     {
         id: 14,
         url: "Fresh_ux",
-        pathimage: "14.png",
+        pathimage: "14.webp",
         title: 'Fresh UX',
         year: "2023",
-        path_svg: "14.png"
+        path_svg: "14.webp"
     },
     {
         id: 15,
         url: "Visit_Health",
-        pathimage: "15.png",
+        pathimage: "15.webp",
         title: 'Visit Health',
         year: "2023",
-        path_svg: "15.png"
+        path_svg: "15.webp"
     },
     {
         id: 16,
         url: "App_MArket",
-        pathimage: "16.png",
+        pathimage: "16.webp",
         title: 'Jobify.com',
         year: "2023",
-        path_svg: "16.png"
+        path_svg: "16.webp"
     },
     {
         id: 17,
         url: "Intellect_Inc",
-        pathimage: "17.png",
+        pathimage: "17.webp",
         title: 'Intellect Inc',
         year: "2023",
-        path_svg: "17.png"
+        path_svg: "17.webp"
     },
     {
         id: 18,
         url: "Jobify_Dashboard",
-        pathimage: "18.png",
+        pathimage: "18.webp",
         title: 'Jobify Dashboard',
         year: "2023",
-        path_svg: "18.png"
+        path_svg: "18.webp"
     },
     {
         id: 19,
         url: "Bizzlab_dashboard",
-        pathimage: "19.png",
+        pathimage: "19.webp",
         title: 'Bizzlab Dashboard',
         year: "2023",
-        path_svg: "19.png"
+        path_svg: "19.webp"
     },
     {
         id: 20,
         url: "Fresh_Square",
-        pathimage: "20.png",
+        pathimage: "20.webp",
         title: 'Fresh Square',
         year: "2023",
-        path_svg: "20.png"
+        path_svg: "20.webp"
     },
     {
         id: 21,
         url: "Fresh_ux",
-        pathimage: "21.png",
+        pathimage: "21.webp",
         title: 'Fresh UX',
         year: "2023",
-        path_svg: "21.png"
+        path_svg: "21.webp"
     },
     {
         id: 22,
         url: "Visit_Health",
-        pathimage: "22.png",
+        pathimage: "22.webp",
         title: 'Visit Health',
         year: "2023",
-        path_svg: "22.png"
+        path_svg: "22.webp"
     },
     {
         id: 23,
         url: "App_MArket",
-        pathimage: "23.png",
+        pathimage: "23.webp",
         title: 'Jobify.com',
         year: "2023",
-        path_svg: "23.png"
+        path_svg: "23.webp"
     },
     {
         id: 24,
         url: "Intellect_Inc",
-        pathimage: "24.png",
+        pathimage: "24.webp",
         title: 'Intellect Inc',
         year: "2023",
-        path_svg: "24.png"
+        path_svg: "24.webp"
     },
     {
         id: 25,
         url: "Jobify_Dashboard",
-        pathimage: "25.png",
+        pathimage: "25.webp",
         title: 'Jobify Dashboard',
         year: "2023",
-        path_svg: "25.png"
+        path_svg: "25.webp"
     },
     {
         id: 26,
         url: "Bizzlab_dashboard",
-        pathimage: "26.png",
+        pathimage: "26.webp",
         title: 'Bizzlab Dashboard',
         year: "2023",
-        path_svg: "26.png"
+        path_svg: "26.webp"
     },
     {
         id: 27,
         url: "Fresh_Square",
-        pathimage: "27.png",
+        pathimage: "27.webp",
         title: 'Fresh Square',
         year: "2023",
-        path_svg: "27.png"
+        path_svg: "27.webp"
     },
     {
         id: 28,
         url: "Fresh_ux",
-        pathimage: "28.png",
+        pathimage: "28.webp",
         title: 'Fresh UX',
         year: "2023",
-        path_svg: "28.png"
+        path_svg: "28.webp"
     },
     {
         id: 29,
         url: "Visit_Health",
-        pathimage: "29.png",
+        pathimage: "29.webp",
         title: 'Visit Health',
         year: "2023",
-        path_svg: "29.png"
+        path_svg: "29.webp"
     },
     {
         id: 30,
         url: "App_MArket",
-        pathimage: "30.png",
+        pathimage: "30.webp",
         title: 'Jobify.com',
         year: "2023",
-        path_svg: "30.png"
+        path_svg: "30.webp"
     },
     {
         id: 31,
         url: "Intellect_Inc",
-        pathimage: "31.png",
+        pathimage: "31.webp",
         title: 'Intellect Inc',
         year: "2023",
-        path_svg: "31.png"
+        path_svg: "31.webp"
     },
     {
         id: 32,
         url: "Jobify_Dashboard",
-        pathimage: "32.png",
+        pathimage: "32.webp",
         title: 'Jobify Dashboard',
         year: "2023",
-        path_svg: "32.png"
+        path_svg: "32.webp"
     },
     {
         id: 33,
         url: "Bizzlab_dashboard",
-        pathimage: "33.png",
+        pathimage: "33.webp",
         title: 'Bizzlab Dashboard',
         year: "2023",
-        path_svg: "33.png"
+        path_svg: "33.webp"
     },
     {
         id: 34,
         url: "Fresh_Square",
-        pathimage: "34.png",
+        pathimage: "34.webp",
         title: 'Fresh Square',
         year: "2023",
-        path_svg: "34.png"
+        path_svg: "34.webp"
     },
     {
         id: 35,
         url: "Fresh_ux",
-        pathimage: "35.png",
+        pathimage: "35.webp",
         title: 'Fresh UX',
         year: "2023",
-        path_svg: "35.png"
+        path_svg: "35.webp"
     },
     {
         id: 36,
         url: "Visit_Health",
-        pathimage: "36.png",
+        pathimage: "36.webp",
         title: 'Visit Health',
         year: "2023",
-        path_svg: "36.png"
+        path_svg: "36.webp"
     },
     {
         id: 37,
         url: "App_MArket",
-        pathimage: "37.png",
+        pathimage: "37.webp",
         title: 'Jobify.com',
         year: "2023",
-        path_svg: "37.png"
+        path_svg: "37.webp"
     },
     {
         id: 38,
         url: "Intellect_Inc",
-        pathimage: "38.png",
+        pathimage: "38.webp",
         title: 'Intellect Inc',
         year: "2023",
-        path_svg: "38.png"
+        path_svg: "38.webp"
     },
     {
         id: 39,
         url: "Jobify_Dashboard",
-        pathimage: "39.png",
+        pathimage: "39.webp",
         title: 'Jobify Dashboard',
         year: "2023",
-        path_svg: "39.png"
+        path_svg: "39.webp"
     },
     {
         id: 40,
         url: "Bizzlab_dashboard",
-        pathimage: "40.png",
+        pathimage: "40.webp",
         title: 'Bizzlab Dashboard',
         year: "2023",
-        path_svg: "40.png"
+        path_svg: "40.webp"
     },
     {
         id: 41,
         url: "Fresh_Square",
-        pathimage: "41.png",
+        pathimage: "41.webp",
         title: 'Fresh Square',
         year: "2023",
-        path_svg: "41.png"
+        path_svg: "41.webp"
     },
     {
         id: 42,
         url: "Fresh_ux",
-        pathimage: "42.png",
+        pathimage: "42.webp",
         title: 'Fresh UX',
         year: "2023",
-        path_svg: "42.png"
+        path_svg: "42.webp"
     },
     {
         id: 43,
         url: "Visit_Health",
-        pathimage: "43.png",
+        pathimage: "43.webp",
         title: 'Visit Health',
         year: "2023",
-        path_svg: "43.png"
+        path_svg: "43.webp"
     },
     {
         id: 44,
         url: "App_MArket",
-        pathimage: "44.png",
+        pathimage: "44.webp",
         title: 'Jobify.com',
         year: "2023",
-        path_svg: "44.png"
+        path_svg: "44.webp"
     },
     {
         id: 45,
         url: "Intellect_Inc",
-        pathimage: "45.png",
+        pathimage: "45.webp",
         title: 'Intellect Inc',
         year: "2023",
-        path_svg: "45.png"
+        path_svg: "45.webp"
     },
     {
         id: 46,
         url: "Jobify_Dashboard",
-        pathimage: "46.png",
+        pathimage: "46.webp",
         title: 'Jobify Dashboard',
         year: "2023",
-        path_svg: "46.png"
+        path_svg: "46.webp"
     },
     {
         id: 47,
         url: "Bizzlab_dashboard",
-        pathimage: "47.png",
+        pathimage: "47.webp",
         title: 'Bizzlab Dashboard',
         year: "2023",
-        path_svg: "47.png"
+        path_svg: "47.webp"
     },
     {
         id: 48,
         url: "Fresh_Square",
-        pathimage: "48.png",
+        pathimage: "48.webp",
         title: 'Fresh Square',
         year: "2023",
-        path_svg: "48.png"
+        path_svg: "48.webp"
     },
     {
         id: 49,
         url: "Fresh_ux",
-        pathimage: "49.png",
+        pathimage: "49.webp",
         title: 'Fresh UX',
         year: "2023",
-        path_svg: "49.png"
+        path_svg: "49.webp"
     },
     {
         id: 50,
         url: "Visit_Health",
-        pathimage: "50.png",
+        pathimage: "50.webp",
         title: 'Visit Health',
         year: "2023",
-        path_svg: "50.png"
+        path_svg: "50.webp"
     },
     {
         id: 51,
         url: "App_MArket",
-        pathimage: "51.png",
+        pathimage: "51.webp",
         title: 'Jobify.com',
         year: "2023",
-        path_svg: "51.png"
+        path_svg: "51.webp"
     },
 ]
